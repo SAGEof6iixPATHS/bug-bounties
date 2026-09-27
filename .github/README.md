@@ -664,6 +664,7 @@
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Flickr](https://hackerone.com/flickr) 💰 🏅
 - <img src='https://icon.horse/icon/www.flipkart.com' width='16'/> [Flipkart](https://www.flipkart.com/pages/security) 💰
 - <img src='https://icon.horse/icon/flo.health' width='16'/> [Flo](https://flo.health/responsible-vulnerability-disclosure-program) 💰
+- <img src='https://icon.horse/icon/www.flocksafety.com' width='16'/> [Flock Safety](https://www.flocksafety.com/legal/vulnerability-disclosure-policy) 🏅
 - <img src='https://icon.horse/icon/docs.floor.xyz' width='16'/> [FloorDAO](https://docs.floor.xyz/v/en/protocol/bug-bounty) 💰
 - <img src='https://icon.horse/icon/floqast.com' width='16'/> [FloQast](https://floqast.com) 💰 🎁
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Flourish](https://bugcrowd.com/flourish) 💰
