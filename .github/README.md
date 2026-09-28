@@ -1208,6 +1208,7 @@
 - <img src='https://icon.horse/icon/www.nokia.com' width='16'/> [Nokia](https://www.nokia.com/responsible-disclosure/) 🏅
 - <img src='https://icon.horse/icon/nordsecurity.com' width='16'/> [Nord Security](https://nordsecurity.com/) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [NordVPN](https://hackerone.com/nordsecurity) 💰
+- <img src='https://icon.horse/icon/www.northseaport.com' width='16'/> [North Sea Port](https://www.northseaport.com/responsible-disclosure) 🏅
 - <img src='https://icon.horse/icon/www.northwesternmutual.com' width='16'/> [Northwestern Mutual](https://www.northwesternmutual.com/responsible-disclosure-policy/) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Northwestern Mutual - Public Bug Bounty](https://bugcrowd.com/engagements/northwestern-mutual-mbb-og) 💰
 - <img src='https://icon.horse/icon/over.nos.nl' width='16'/> [NOS](https://over.nos.nl/organisatie/regelgeving/) 💰
@@ -1385,6 +1386,7 @@
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [PNI Media - Bug Bounty](https://bugcrowd.com/engagements/pnimedia-bb) 💰
 - <img src='https://icon.horse/icon/pokee.ai' width='16'/> [pokee.ai](https://pokee.ai/bug-bounty) 💰
 - <img src='https://icon.horse/icon/tls.mbed.org' width='16'/> [Polar SSL](https://tls.mbed.org/bug-bounty-program) 💰
+- <img src='https://icon.horse/icon/www.polestar.com' width='16'/> [Polestar](https://www.polestar.com/global/vulnerability-disclosure/) 🏅
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Polkastarter](https://immunefi.com/bug-bounty/polkastarter/) 💰
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [Polygon](https://immunefi.com/bug-bounty/polygon/) 💰
 - <img src='https://icon.horse/icon/polygon.technology' width='16'/> [Polygon Technology](https://polygon.technology) 💰
@@ -1393,6 +1395,7 @@
 - <img src='https://icon.horse/icon/porkbun.com' width='16'/> [Porkbun](https://porkbun.com/products/bug_bounty) 💰
 - <img src='https://icon.horse/icon/pornbox.com' width='16'/> [PornBox](https://pornbox.com) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Pornhub](https://hackerone.com/pornhub) 💰 🏅
+- <img src='https://icon.horse/icon/www.portofamsterdam.com' width='16'/> [Port of Amsterdam](https://www.portofamsterdam.com/nl/coordinated-vulnerability-disclosure-statement) 🏅
 - <img src='https://icon.horse/icon/www.intigriti.com' width='16'/> [Port of Antwerp-Bruges](https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail) 💰
 - <img src='https://icon.horse/icon/www.portofrotterdam.com' width='16'/> [Port of Rotterdam](https://www.portofrotterdam.com/en/responsible-disclosure) 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [PortSwigger Web Security](https://hackerone.com/portswigger) 💰 🏅 🎁
