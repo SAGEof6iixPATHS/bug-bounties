@@ -1429,6 +1429,62 @@ companies:
   response_sla_days: 5
   hall_of_fame_url: https://fintual.com/hall-of-fame.txt
 
+- company: flatexDEGIRO
+  url: https://flatexdegiro.com/English/vulnerability-disclosure/default.aspx
+  contact: mailto:vulnerability@flatexdegiro.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: German, English
+  description: flatexDEGIRO takes vulnerability reports by email for the public systems, apps and services of flatexDEGIRO SE and flatexDEGIRO Bank SE, including the flatex Germany, flatex Austria, DEGIRO and ViTrade brands. Reports are acknowledged within 72 hours, with a first assessment within 7 days and critical issues fixed within 30 days where possible. Severity is scored with CVSS, S/MIME is available for encrypted mail and reports can be anonymous. There's no bug bounty or other reward.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  scope:
+  - target: flatex Germany
+    type: other
+  - target: flatex Austria
+    type: other
+  - target: DEGIRO
+    type: other
+  - target: ViTrade
+    type: other
+  out_of_scope:
+  - Third-party services, systems and applications not operated by flatexDEGIRO SE or flatexDEGIRO Bank SE
+  response_sla_days: 3
+
+- company: Flatpay
+  url: https://flatpay.com/responsible-disclosure
+  contact: mailto:security@flatpay.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: English
+  description: Flatpay takes vulnerability reports by email, covering any Flatpay domain or subdomain that publishes a security.txt file. Good-faith research under the policy counts as authorised and Flatpay won't pursue legal action over it. Reports can be anonymous and are acknowledged within 3 business days, with a PGP key supplied if more detail is needed. There's no paid bug bounty, but reporters of qualifying vulnerabilities are offered a Flatpay reward.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  scope:
+  - target: Flatpay domains and subdomains that publish a security.txt file
+    type: web
+  out_of_scope:
+  - Services hosted by third-party providers
+  - Physical testing such as office access
+  - Social engineering such as phishing or vishing
+  - Applications or systems not listed as in scope
+  - UI/UX bugs and spelling mistakes
+  - Network-level DoS/DDoS, and other tests that impair access to or damage a system or data
+  - TLS configuration weaknesses
+  - Volumetric vulnerabilities
+  - Non-exploitable findings such as missing security headers or SPF/DMARC configuration
+  domains:
+  - flatpay.com
+  response_sla_days: 3
+
 - company: FlixBus
   url: https://global.flixbus.com/responsible-disclosure
   contact: mailto:responsible-disclosure@flixbus.com
@@ -2189,6 +2245,39 @@ companies:
   - Informational disclosure of non-sensitive data
   - Self-XSS with a user-defined payload
 
+- company: Juicebox
+  url: https://juicebox.ai/responsible-disclosure
+  contact: mailto:security@juicebox.work
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  allows_disclosure: true
+  preferred_languages: English
+  description: Juicebox (PeopleGPT) takes vulnerability reports by email for juicebox.ai and chat.juicebox.work. Rewards depend on severity and impact, and not every report qualifies for payment. Critical issues with a CVSS score of 4 or higher that its team hadn't already found are the most likely to. Testing is limited to your own account, or another account with explicit permission.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  - automated_scanning
+  scope:
+  - target: juicebox.ai
+    type: web
+  - target: chat.juicebox.work
+    type: web
+  out_of_scope:
+  - Automated scanning tools
+  - Social engineering attacks
+  - Brute force attacks
+  - DDoS attacks
+  - Clickjacking on pages without sensitive actions
+  - Theoretical vulnerabilities without demonstrable exploitability
+  - Attacks requiring physical access to a device
+  - Denial of service attacks
+  domains:
+  - juicebox.ai
+  - chat.juicebox.work
+
 - company: Kahoot!
   url: https://kahoot.com/disclosure-policy.txt
   contact: mailto:security@kahoot.com
@@ -2816,6 +2905,25 @@ companies:
   response_sla_days: 5
   standards:
   - Dutch NCSC guidelines
+
+- company: Nordnet
+  url: https://www.nordnet.se/security-disclosure
+  contact: mailto:security@nordnet.se
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English, Swedish
+  pgp_key: https://keys.openpgp.org/vks/v1/by-fingerprint/BF1F52796C852E645B2F35124D3DBD211E9192F5
+  description: Nordnet takes vulnerability reports by email first, and sets up a secure channel after that if one is needed. It asks for the chance to fix an issue before it's made public, and that the vulnerability isn't used to change or remove data or for material gain. Reporters who act in good faith within those rules won't face legal action. Nordnet confirms receipt, keeps the reporter updated and credits them as the discoverer in anything it publishes about the issue, unless they'd rather not be named.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - phishing
+  - physical_access
+  hall_of_fame_url: https://www.nordnet.se/security-disclosure/hall-of-fame
 
 - company: North Sea Port
   url: https://www.northseaport.com/responsible-disclosure
