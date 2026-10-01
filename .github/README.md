@@ -445,6 +445,7 @@
 - <img src='https://icon.horse/icon/yeswehack.com' width='16'/> [Cybermalveillance.gouv.fr  - sensibiliza...](https://yeswehack.com/programs/cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity) 💰
 - <img src='https://icon.horse/icon/cybermarqt.com' width='16'/> [Cybermarqt](https://cybermarqt.com/responsible-disclosure) 🏅
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Cybrary](https://bugcrowd.com/cybrary) 🏅
+- <img src='https://icon.horse/icon/www.cz.nl' width='16'/> [CZ](https://www.cz.nl/over-cz/beveiligingsprobleem-melden) 🏅
 
 </details>
 <details open><summary><h4>D</h4></summary>
@@ -1204,6 +1205,7 @@
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Ninja Kiwi](https://hackerone.com/ninja-kiwi) 💰
 - <img src='https://icon.horse/icon/www.intigriti.com' width='16'/> [Ninja Kiwi Games](https://www.intigriti.com/programs/ninjakiwigames/ninjakiwigames/detail) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Nintendo](https://hackerone.com/nintendo) 💰 🏅
+- <img src='https://icon.horse/icon/www.nn-group.com' width='16'/> [NN Group](https://www.nn-group.com/ethical-hacking-responsible-disclosure) 💰
 - <img src='https://icon.horse/icon/nodejs.org' width='16'/> [no.de](https://nodejs.org/en/security/) 💰
 - <img src='https://icon.horse/icon/www.nokia.com' width='16'/> [Nokia](https://www.nokia.com/responsible-disclosure/) 🏅
 - <img src='https://icon.horse/icon/nordsecurity.com' width='16'/> [Nord Security](https://nordsecurity.com/) 💰
@@ -1912,6 +1914,7 @@
 - <img src='https://icon.horse/icon/docs.val.town' width='16'/> [Val Town](https://docs.val.town/contact-us/security/) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Valve](https://hackerone.com/valve) 💰 🏅 🎁
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Valve Software](https://hackerone.com/valve) 💰
+- <img src='https://icon.horse/icon/www.vanlanschotkempen.com' width='16'/> [Van Lanschot Kempen](https://www.vanlanschotkempen.com/en-nl/security/responsible-disclosure-policy) 💰
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [Vanilla](https://hackerone.com/vanilla) 💰 🏅
 - <img src='https://icon.horse/icon/immunefi.com' width='16'/> [VeChain](https://immunefi.com/bug-bounty/vechain/) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Vectors Bug Bounty](https://bugcrowd.com/engagements/vectors-marketplace) 💰
