@@ -932,6 +932,7 @@
 - <img src='https://icon.horse/icon/www.deere.com' width='16'/> [John Deere](https://www.deere.com/en/digital-security/responsible-disclosure/) 🏅 🎁
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Jora](https://bugcrowd.com/jora) 💰
 - <img src='https://icon.horse/icon/judge.me' width='16'/> [Judge.me](https://judge.me) 💰 🎁
+- <img src='https://icon.horse/icon/juicebox.ai' width='16'/> [Juicebox](https://juicebox.ai/responsible-disclosure) 💰
 - <img src='https://icon.horse/icon/bugcrowd.com' width='16'/> [Jumbo Privacy](https://bugcrowd.com/jumboprivacy) 💰 🏅
 - <img src='https://icon.horse/icon/www.jumo.world' width='16'/> [Jumo](https://www.jumo.world/responsible-disclosure/) 🏅
 - <img src='https://icon.horse/icon/jumplead.com' width='16'/> [JumpleAd](https://jumplead.com/about/security) 💰 🏅
@@ -1209,6 +1210,7 @@
 - <img src='https://icon.horse/icon/nodejs.org' width='16'/> [no.de](https://nodejs.org/en/security/) 💰
 - <img src='https://icon.horse/icon/www.nokia.com' width='16'/> [Nokia](https://www.nokia.com/responsible-disclosure/) 🏅
 - <img src='https://icon.horse/icon/nordsecurity.com' width='16'/> [Nord Security](https://nordsecurity.com/) 💰
+- <img src='https://icon.horse/icon/www.nordnet.se' width='16'/> [Nordnet](https://www.nordnet.se/security-disclosure) 🏅
 - <img src='https://icon.horse/icon/hackerone.com' width='16'/> [NordVPN](https://hackerone.com/nordsecurity) 💰
 - <img src='https://icon.horse/icon/www.northseaport.com' width='16'/> [North Sea Port](https://www.northseaport.com/responsible-disclosure) 🏅
 - <img src='https://icon.horse/icon/www.northwesternmutual.com' width='16'/> [Northwestern Mutual](https://www.northwesternmutual.com/responsible-disclosure-policy/) 🏅
