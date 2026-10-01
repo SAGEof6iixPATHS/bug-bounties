@@ -1130,6 +1130,24 @@ companies:
   description: Cursor accepts potential vulnerabilities by email at security-reports@cursor.com. Reports are acknowledged within 5 business days and addressed as soon as Cursor is able, with critical incidents communicated by email to affected users.
   response_sla_days: 5
 
+- company: CZ
+  url: https://www.cz.nl/over-cz/beveiligingsprobleem-melden
+  contact: mailto:disclosure@cz.nl
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: Dutch, English
+  pgp_key: https://www.cz.nl/over-cz/beveiligingsprobleem-melden
+  description: CZ takes vulnerability reports by email under a responsible disclosure policy based on the Dutch NCSC guidelines, and publishes a PGP key on the same page for encrypting them. The first reply comes within two working days, with an assessment and expected fix date within ten. Reports can be anonymous or under a pseudonym, CZ names the finder when it reports on the issue if they want that, and it won't take legal action against reporters who act in good faith and follow the rules.
+  excluded_methods:
+  - automated_scanning
+  response_sla_days: 2
+  standards:
+  - Dutch NCSC guidelines
+
 - company: Darktrace
   url: https://www.darktrace.com/legal/vulnerability-disclosure-policy
   contact: mailto:vulnerability-disclosure@darktrace.com
@@ -2750,6 +2768,54 @@ companies:
   preferred_languages: English, French
   pgp_key: https://www.nexthink.com/security-team.pub
   description: Responsible disclosure policy for the digital employee experience vendor. Reports go to responsible-disclosure@nexthink.com, which they aim to acknowledge in under 72 hours and handle confidentially, and Nexthink will not pursue legal action over research that follows the guidelines. Details may not be shared with third parties without their consent, and there is no paid bug bounty.
+
+- company: NN Group
+  url: https://www.nn-group.com/ethical-hacking-responsible-disclosure
+  contact: mailto:responsible-disclosure@nn-group.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: English
+  description: NN Group and its subsidiaries take reports on internet-facing services and mobile apps by email, in English, under rules based on the Dutch NCSC guidelines. Reports get a response within five working days. Valid first reports are paid by severity, with the page listing approximate amounts as of June 2026 and the final sum set case by case. Anonymous reports are accepted but can't be credited or rewarded, and findings stay confidential until disclosure is agreed with NN Group.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - automated_scanning
+  scope:
+  - target: NN Group internet-facing services
+    type: web
+  - target: NN Group mobile apps
+    type: mobile
+  out_of_scope:
+  - Missing or deprecated HTTP security headers
+  - SSL/TLS configuration issues
+  - Descriptive error messages and non-200 pages
+  - Fingerprinting and banner disclosure
+  - CSRF on anonymous forms, and logout CSRF
+  - Missing cookie flags
+  - Weak captcha or captcha bypass
+  - Brute force and missing account lockout on login or password reset pages
+  - Denial of service
+  - Outdated software versions
+  - SPF, DKIM, DMARC and DNSSEC configuration
+  - Missing subresource integrity
+  - API keys or credentials that give no access to sensitive data or functionality
+  - AI/LLM issues with no direct security impact
+  - Missing reverse-engineering protection, jailbreak detection, certificate pinning or exploit mitigations in mobile apps
+  min_payout: 25
+  max_payout: 300
+  currency: EUR
+  payout_table:
+    critical: 300
+    high: 200
+    medium: 75
+    low: 25
+  response_sla_days: 5
+  standards:
+  - Dutch NCSC guidelines
 
 - company: North Sea Port
   url: https://www.northseaport.com/responsible-disclosure
@@ -4723,6 +4789,61 @@ companies:
   - api.val.town
   - esm.town
   - val.run
+
+- company: Van Lanschot Kempen
+  url: https://www.vanlanschotkempen.com/en-nl/security/responsible-disclosure-policy
+  contact: mailto:responsibledisclosure@vanlanschotkempen.com
+  rewards:
+  - '*bounty'
+  program_type: bounty
+  status: active
+  safe_harbor: partial
+  preferred_languages: Dutch, English
+  description: Van Lanschot Kempen takes vulnerability reports by email for eight listed domains and their subdomains. A team of security experts gives a first response within two working days and asks that the issue stays confidential while it's fixed. Any report that gets resolved or leads to a change in its services qualifies for a reward, paid to the first reporter at the bank's discretion. Reports can be anonymous and must be in Dutch or English, and reports written by AI tools aren't accepted.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - automated_scanning
+  scope:
+  - target: '*.evivanlanschot.nl'
+    type: web
+  - target: '*.merciervanlanschot.be'
+    type: web
+  - target: '*.vanlanschot.be'
+    type: web
+  - target: '*.vanlanschot.com'
+    type: web
+  - target: '*.vanlanschot.nl'
+    type: web
+  - target: '*.vanlanschotkempen.com'
+    type: web
+  - target: '*.vanlanschotkempen.nl'
+    type: web
+  - target: '*.vlkdigital.com'
+    type: web
+  out_of_scope:
+  - Reports without clear evidence of possible exploitation
+  - Reports generated or written by AI tools
+  - SPF, DKIM and DMARC records
+  - Fingerprinting and version banner disclosure
+  - Publicly accessible files with non-sensitive information, such as robots.txt
+  - Browser autocomplete or save password functionality
+  - CSRF on static pages and logout
+  - Brute force against forgot password pages
+  - HTTP to HTTPS redirection, and HTTP OPTIONS enabled
+  - Host header injection
+  - Missing HTTP security headers
+  - Missing or unrecognised HTML charset
+  - Missing Secure or HttpOnly flags on non-sensitive cookies
+  - Clickjacking
+  - User enumeration on sites that don't process online payments
+  - Possibly outdated third-party software without proof it is vulnerable
+  - Unsafe SSL/TLS protocols and other TLS misconfigurations
+  - Generic issues in software or protocols outside Van Lanschot Kempen's control
+  - Distributed denial of service
+  - Spam and social engineering
+  - Port scans and other routine scans
+  response_sla_days: 2
 
 - company: Vanta
   url: https://www.vanta.com/disclosure
